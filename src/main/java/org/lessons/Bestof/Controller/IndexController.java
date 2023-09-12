@@ -18,10 +18,10 @@ public class IndexController {
         return "homepage";
     }
 
-    @GetMapping ("/movies")
+   /* @GetMapping ("/movies")
     public String movies(){
         return "movies";
-    }
+    }*/
 
     @GetMapping ("/songs")
     public String songs(){

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,7 +9,10 @@
 </head>
 <body>
 
-<h1> Movies </h1>
+<h1> Favorite Movies List</h1>
+<ul>
+    <li th:each="movie : ${movies}" th:text ="|${movie.MovieId} ${movie.MovieName}"></li>
+</ul>
 
 </body>
 </html>
