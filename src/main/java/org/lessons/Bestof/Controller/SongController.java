@@ -29,7 +29,6 @@ public class SongController {
         songs.add(new Song(Integer.parseInt("1"), "Live Forever"));
         songs.add(new Song(Integer.parseInt("2"), "Money trees"));
         songs.add(new Song(Integer.parseInt("3"), "When I'm gone"));
-
         return songs;
     }
 
