@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,7 +9,11 @@
 </head>
 <body>
 
-<h1> Songs </h1>
+<h1> Favorite Songs </h1>
+
+<ul>
+    <li th:each="song : ${songs}" th:text ="|${song.SongId} ${song.SongName}|"></li>
+</ul>
 
 </body>
 </html>

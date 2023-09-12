@@ -23,8 +23,8 @@ public class IndexController {
         return "movies";
     }*/
 
-    @GetMapping ("/songs")
+    /*@GetMapping ("/songs")
     public String songs(){
         return "songs";
-    }
+    }*/
 }

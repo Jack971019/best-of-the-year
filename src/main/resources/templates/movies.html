@@ -11,8 +11,9 @@
 
 <h1> Favorite Movies List</h1>
 <ul>
-    <li th:each="movie : ${movies}" th:text ="|${movie.MovieId} ${movie.MovieName}"></li>
+    <li th:each="movie : ${movies}" th:text ="|${movie.MovieId} ${movie.MovieName}|"></li>
 </ul>
+
 
 </body>
 </html>
